@@ -4,35 +4,35 @@ function RunBoxstarter($scriptName) {
   Install-BoxstarterPackage -PackageName ($rootUrl + $scriptName) -DisableReboots
 }
 
-function Install-Boxstarter-All {
+function Install-Boxstarter-ALl {
   RunBoxstarter 'boxstarter.ps1'
 }
 
-function Install-Boxstarter-Atom {
+function Install-Atom {
   RunBoxstarter 'atom-profile.ps1'
 }
 
-function Install-Boxstarter-DevTools {
+function Install-DevTools {
   RunBoxstarter 'dev-tools.ps1'
 }
 
-function Install-Boxstarter-Essentials {
+function Install-Essentials {
   RunBoxstarter 'essentials.ps1'
 }
 
-function Install-Boxstarter-Git {
+function Install-Git {
   RunBoxstarter 'git-tools.ps1'
 }
 
-function Install-Boxstarter-Utilities {
+function Install-Utilities {
   RunBoxstarter 'utilities.ps1'
 }
 
-function Install-Boxstarter-PersonalUtilities {
+function Install-PersonalUtilities {
   RunBoxstarter 'personal-utilities.ps1'
 }
 
-function Install-Boxstarter-VisualStudio {
+function Install-VisualStudio {
   RunBoxstarter 'visualstudio.ps1'
 }
 
