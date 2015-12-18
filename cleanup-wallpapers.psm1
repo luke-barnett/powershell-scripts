@@ -4,7 +4,7 @@ function Clean-Wallpapers {
   if($env:WallpapersDirectory -eq $null)
   {
     write-output 'No wallpapers directory set defaulting'
-    $env:WallpapersDirectory = 'E:\Dropbox\Dropbox\IFTTT\reddit\wallpapers'
+    $env:WallpapersDirectory = 'E:\OneDrive\reddit\wallpapers'
   }
 
   write-output ('Cleaning wallpaper directory: ' + $env:WallpapersDirectory)
