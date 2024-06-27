@@ -15,6 +15,12 @@ function Clean-Wallpapers {
 
   foreach($wallpaper in $wallpapers)
   {
+    if($wallpaper.Name -eq 'no_image_card.png')
+    {
+      remove-item $wallpaper.FullName
+      continue
+    }
+
     if($wallpaper.Length -le 1000000)
     {
       remove-item $wallpaper.FullName
